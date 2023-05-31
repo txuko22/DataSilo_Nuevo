@@ -1,0 +1,31 @@
+<ion-content class="background-content" padding>
+  <div class="eDiv50"></div>
+  <ion-grid [ngClass]="{'hidden': hidden}">
+    <ion-row>
+      <h6>INICIAR SESIÓN</h6>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-input label="CORREO ELECTRÓNICO" [(ngModel)]="email" type="email"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-input label="CONTRASEÑA" [(ngModel)]="password" [type]="passwordType" clearOnEdit="false"></ion-input>
+          <ion-button class="btn-password" icon-only clear item-end (click)='hideShowPassword()'><ion-icon [name]="passwordIcon" class="passwordIcon"></ion-icon></ion-button>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <div class="eDiv50"></div>
+    <ion-row>
+      <ion-button (click)="loginValidate()"  color="primary">ENTRAR</ion-button>
+    </ion-row>
+    <div class="eDiv25"></div>
+    <ion-row>
+      <h5 (click)="showReserPasswordPage()">Has olvidado la contraseña?</h5>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "DataSilo_Nuevo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

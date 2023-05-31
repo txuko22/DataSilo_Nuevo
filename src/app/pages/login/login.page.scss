@@ -1,0 +1,60 @@
+.background-content {
+    background: #fff;
+}
+
+ion-row{
+    align-items: center; 
+    justify-content: center;
+}
+
+ion-grid {
+    margin-top: 20%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+ion-item {
+    background: transparent !important;
+}
+
+ion-input {
+    color: #000 !important;
+}
+
+h5 {
+    color: #000;
+    font-size: 0.9em;
+}
+
+h6 {
+    font-size: 1.1em;
+    color: #000;
+}
+
+.btn-password {
+    position: relative !important;
+    top: 20% !important;
+    margin: 0 auto !important;
+}
+
+.passwordIcon {
+    color: #000;
+}
+
+ion-label {
+    color: #000 !important;
+}
+
+.input-has-focus .item-inner {
+    border-bottom: 1px solid #000 !important;
+}
+
+.eDiv50{
+    height: 50px;
+}
+
+.eDiv25{
+    height: 50px;
+}
