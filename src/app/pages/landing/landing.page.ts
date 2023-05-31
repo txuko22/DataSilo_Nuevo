@@ -17,4 +17,5 @@ export class LandingPage implements OnInit {
   gotoLoginPage(){
     this.router.navigate(['login']);
   }
+  // Hola
 }
